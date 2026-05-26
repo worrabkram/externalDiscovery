@@ -29,9 +29,12 @@ For convenience, the script is provided as a Windows executable packaged using P
 However, the source code can be shared with anyone interested in building their own integrations.
 
 Micetro_External_Discovery.pdf  -  Installation and configuration instructions
+
 externalDiscovery.exe           -  pyinstaller bundle containing externalDiscovery.py, Python 3.x and dependant packages.
                                    Requires Windows 2019 or higher
+                                   
 setup.json                      -  sample setup.json. Needs to be modified to match your environment
+
 profiles.json                   -  sample profiles.json including examples for SNMP2, SNMP3, OID substitutes, PANOS API, NEXUS API and FORTI API
 
 
