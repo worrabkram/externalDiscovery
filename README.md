@@ -4,6 +4,7 @@ externalDiscovery is a python based script developed by Sigfus Magnusson and mys
 While Micetro is continuously improving, we found that some customers still require this approach to identify and integrate unsupported or partially supported devices. The project also helps surface requirements for future product enhancements.
 
 It supports:
+
 •	VRF-aware discovery
 
 •	Palo Alto PAN-OS API integration
@@ -21,6 +22,7 @@ It supports:
 •	L2 discovery using the SNMP BRIDGE-MIB
 
 Recommended use cases:
+
 •	Complex routed environments 
 
 •	Multi-VRF deployments
