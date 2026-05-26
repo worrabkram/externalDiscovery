@@ -5,18 +5,28 @@ While Micetro is continuously improving, we found that some customers still requ
 
 It supports:
 •	VRF-aware discovery
-•	Palo Alto PAN-OS API integration 
-•	Cisco Nexus NX-API integration 
+
+•	Palo Alto PAN-OS API integration
+
+•	Cisco Nexus NX-API integration
+
 •	Fortigate FortiOS API integration
-•	Custom SNMP OIDs 
+
+•	Custom SNMP OIDs
+
 •	Discovery filtering and subnet suppression
+
 •	Device interface collection and population into IPAMDevices
+
 •	L2 discovery using the SNMP BRIDGE-MIB
 
 Recommended use cases:
 •	Complex routed environments 
+
 •	Multi-VRF deployments
+
 •	Firewalls with limited SNMP support 
+
 •	Environments requiring custom discovery logic
 
 **Please note**
