@@ -1,0 +1,16 @@
+{
+    "url": "http://192.168.1.1/mmws/api/command/",
+    "validateCert" : false,
+    "skipCIDRs" : ["31", "32"],
+    "skipIPs" : ["127.0.0.1", "0.0.0.1", "254.0.0.1"],
+    "skipNetworks" : ["127.0.0.1"],
+    "logFileName" : "snmp.log",
+    "logFileSizeInBytes" : 10485760,
+    "logFileBackupCount" : 5,
+    "encryptAuth" : false,
+    "fernetUser" : "Fernet",
+    "logLevel" : 10,
+    "timeout" : 5,
+    "snmpRetries" : 3,
+    "maxPIDAge" : 119
+}

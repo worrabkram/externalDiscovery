@@ -1,0 +1,69 @@
+{
+    "profiles": [
+        {
+            "enabled": false,
+            "profileName": "example-SNMP3-MD5-DES",
+            "discoveryType": "SNMP",
+            "version": "3",
+            "user": "v3user",
+            "authProtocol": "usmHMACMD5AuthProtocol",
+            "authPass": "password123",
+            "encrProtocol": "usmDESPrivProtocol",
+            "encrKey": "key123",
+            "routers": [
+                "10.12.0.80"
+            ]
+        },
+        {
+            "enabled": false,
+            "profileName": "PaloAlto",
+            "discoveryType": "PAN-OS",
+            "routers": [
+                "https://10.12.0.114:443:FBH1-jHc3412gdfgdgdghhLu_ukWyVpumVS4TuV0UfVqYfgdffpx0jfUH5tqntVR-SnNPg0Nuo3t1TSXbeEbF==",
+                "http://10.40.0.146:443:eTHrc4LVBoE46HoYmu_Wh2a2kIQSWcyNIsOtYcThYXTH8-MM64egg_QQY0J5mczr3uhsmKVuTH7ZAFLX693OVw=="
+            ]
+        },
+        {
+            "enabled": false,
+            "profileName": "Nexus",
+            "discoveryType": "NX-OS",
+            "apiUser": "micetro",
+            "apiPassword": "micetro123",
+            "routers": [
+                "10.12.0.120"
+            ]
+        },
+        {
+            "enabled": false,
+            "profileName": "example-SNMP2",
+            "discoveryType": "SNMP",
+            "version": "2c",
+            "communityString": "routers",
+            "routers": [
+                "10.12.0.4",
+                "10.12.0.5",
+                "10.12.0.254",
+                "10.12.0.252"
+            ]
+        },
+        {
+            "enabled": false,
+            "profileName": "FortiGate",
+            "discoveryType": "FORTI-OS",
+            "routers": [
+                "https://10.12.0.250:443:qKIkEQJz5qMW74wUoUOouwtY6MyauzXcpLP42WJMfFIzay3Srwd1yWVp0STaz0HunMzOt8ud2n4WI="
+            ]
+        },
+        {
+            "enabled": true,
+            "profileName": "example-bridge",
+            "discoveryType": "SNMP",
+            "deviceType": "L2",
+            "version": "2c",
+            "communityString": "routers",
+            "routers": [
+                "10.12.0.8"
+            ]
+        }
+    ]
+}
