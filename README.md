@@ -17,7 +17,7 @@ It supports:
 
 •	Discovery filtering and subnet suppression
 
-•	Device interface collection and population into IPAMDevices
+•	Device interface collection and population into IPAM Devices
 
 •	L2 discovery using the SNMP BRIDGE-MIB
 
