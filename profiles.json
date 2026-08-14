@@ -55,7 +55,7 @@
             ]
         },
         {
-            "enabled": true,
+            "enabled": false,
             "profileName": "nsx-test",
             "discoveryType": "NSX-T",
             "apiUser": "admin",
