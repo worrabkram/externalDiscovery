@@ -21,6 +21,8 @@ It supports:
 
 •	L2 discovery using the SNMP BRIDGE-MIB
 
+•	NSX-T discovery via API
+
 Recommended use cases:
 
 •	Complex routed environments 
