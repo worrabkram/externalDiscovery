@@ -56,6 +56,16 @@
         },
         {
             "enabled": true,
+            "profileName": "nsx-test",
+            "discoveryType": "NSX-T",
+            "apiUser": "admin",
+            "apiPassword": "pwd",
+            "routers": [
+                "10.10.10.10"
+            ]
+        },
+        {
+            "enabled": false,
             "profileName": "example-bridge",
             "discoveryType": "SNMP",
             "deviceType": "L2",
